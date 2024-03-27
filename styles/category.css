@@ -1,0 +1,14 @@
+.categories{
+    @apply my-10 sm:my-20;
+}
+.category-block{
+    @apply block w-full h-[140px] overflow-hidden rounded-lg relative before:absolute before:inset-0
+    before:w-full before:h-full before:bg-orange-500 before:scale-0 hover:before:scale-150 before:transition-all 
+    before:duration-700 before:rounded-full hover:before:rounded-none before:origin-top-right;
+}
+.category-layer{
+    @apply absolute inset-0 w-full h-full bg-black/40 flex items-center justify-center;
+}
+.category-name{
+    @apply text-white font-medium text-lg sm:text-base capitalize z-20;
+}

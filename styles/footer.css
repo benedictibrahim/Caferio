@@ -1,0 +1,30 @@
+.footer{
+    @apply py-20;
+}
+.footer-col{
+    @apply w-full sm:w-6/12 md:w-4/12 p-4;
+}
+.footer-link-img{
+    @apply w-[120px] h-auto inline-block;
+}
+.footer-copyright{
+    @apply text-base mt-3 xl:w-8/12;
+}
+.ul-footer-links{
+    @apply mt-4;
+}
+.copyright-name{
+    @apply font-medium text-orange-700; 
+}
+.ul-footer-links a{
+    @apply ml-4 first:ml-0;
+}
+.footer-column{
+    @apply w-6/12 sm:w-3/12 md:w-4/12 lg:w-2/12 py-4;
+}
+.footer-heading{
+    @apply text-lg capitalize font-semibold;
+}
+.footer-ul-li-a{
+    @apply text-base text-gray-500 capitalize mt-4 block hover:text-orange-500;
+}

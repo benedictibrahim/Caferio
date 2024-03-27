@@ -1,0 +1,37 @@
+.pricing{
+    @apply py-20;
+}
+.pricing-column{
+    @apply w-full sm:w-9/12 md:w-7/12 lg:w-5/12 xl:w-4/12 p-6;
+}
+.pricing-card{
+    @apply relative px-10 pt-20 pb-10 bg-yellow-100 border border-yellow-500 border-2 border-dashed rounded-lg;
+}
+.pricing-heading{
+    @apply uppercase text-center text-orange-800 text-xl font-semibold;
+}
+.pricing-sign{
+    @apply text-2xl text-gray-700;
+}
+.pricing-price{
+    @apply text-[60px] text-gray-800 font-semibold;
+}
+.pricing-message{
+    @apply text-center text-base capitalize font-medium;
+}
+.pricing-list{
+    @apply flex items-center mt-5;
+}
+.pricing-icon{
+    @apply mr-3 flex items-center justify-center w-[25px] h-[25px] bg-orange-500 rounded-full shadow-md text-white;
+}
+.pricing-list-features{
+    @apply text-base capitalize text-gray-700;
+}
+.btn-lg{
+    @apply text-lg py-3 px-5;
+}
+.pricing-label{
+    @apply bg-yellow-500 absolute top-[20px] right-[-15px] py-1 px-2 text-gray-800 text-[14px] uppercase font-bold after:absolute
+     after:bg-yellow-600 after:top-[12px] after:right-[4px] after:h-full after:w-10 after:-z-10 after:rotate-[-30deg];
+}
