@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./caferio.html", "./js/script.js"],
+  content: ["./index.html", "./js/script.js"],
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
